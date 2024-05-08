@@ -4,8 +4,9 @@ function App() {
   
 
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div className="bg-black">
+      <h1 className="text-red-500 bg-black">Hello</h1>
+      <h2>Arlind Pestisha</h2>
     </div>
   )
 }
