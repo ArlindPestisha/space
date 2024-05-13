@@ -1,12 +1,20 @@
+import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
+import Home from './components/Home'
+import Technology from './components/Technology';
 
 const App = () => {
   
 
   return (
-    <div className="bg-cover bg-center h-screen bg-home max-sm:bg-homeTablet" >
-      <h1 className="text-red-500  font-barlowCondensed">Hello</h1>
-      <h2 className=" font-bellefair">Arlind Pestisha</h2>
-    </div>
+    <Router>
+      <Routes>
+       <Route  path='/' element={<Home />} />
+       <Route  path='/technology' element={<Technology />} />
+      </Routes>
+       
+      
+    </Router>
+    
   )
 }
 
