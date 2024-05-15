@@ -7,6 +7,7 @@ export default {
                 primary: '#0B0d17',
                 secondary: '#D0D6f9',
                 white: '#FFFFFF',
+                grayHover: '#979797'
             },
             fontFamily: {
                 bellefair: ['Bellefair', 'serif'],
