@@ -13,7 +13,7 @@ const Nav = () => {
                     />
                 </Link>
             </div>
-            <div class="h-[1px] w-[473px] divide-y divide-solid bg-white bg-opacity-25"></div>
+            <div className="hidden h-[1px] w-[400px] divide-y  divide-solid bg-white bg-opacity-25 lg:block"></div>
             <ul className="flex h-[96px]  w-full max-w-[830px] items-center justify-center space-x-10 bg-gray-400 bg-opacity-25 font-barlowCondensed text-base uppercase text-white backdrop-blur-sm">
                 <li>
                     <NavLink to="/" index="00" label="Home" />
