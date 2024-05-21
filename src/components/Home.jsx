@@ -22,7 +22,7 @@ const Home = () => {
                 </div>
                 <div className="mt-10 flex justify-center md:mt-0 md:justify-end">
                     <Link to="/destination">
-                        <button className="hover:before:bg-grayHover flex h-[270px] w-[270px] items-center justify-center rounded-full bg-white font-bellefair text-3xl uppercase tracking-wider text-black transition hover:before:absolute hover:before:h-[400px] hover:before:w-[400px] hover:before:rounded-full hover:before:opacity-10">
+                        <button className="flex h-[270px] w-[270px] items-center justify-center rounded-full bg-white font-bellefair text-3xl uppercase tracking-wider text-black transition hover:before:absolute hover:before:h-[400px] hover:before:w-[400px] hover:before:rounded-full hover:before:bg-grayHover hover:before:opacity-10">
                             Explore
                         </button>
                     </Link>
